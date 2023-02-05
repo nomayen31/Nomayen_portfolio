@@ -90,24 +90,29 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
+    color: white;
     padding: 0.75rem 1.2rem;
-   border-radius: 0.4rem;
-   cursor: pointer;
-   border: 1px solid var(--color-primary);
-   transition: var(--transition);
-}
-.btn:hover{
-    background: var(--color-white);
-    color: var(--color-bg);
-    border-color:transparent;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #00CF5D;
+    transition: var(--transition);
 }
 
-.btn-primary{
-    background: var(--color-primary);
+.btn:hover {
+    background: var(--color-white);
     color: var(--color-bg);
+    border-color: transparent;
 }
-img{
+
+.btn-primary {
+    /* background: var(--color-primary); */
+    background: #00CF5D;
+    color: var(--color-bg);
+    border: none;
+}
+
+img {
     display: block;
     width: 100%;
     object-fit: cover;
@@ -117,18 +122,21 @@ img{
 
 
 @media screen and (max-width:1024px) {
-    .container{
+    .container {
         width: var(--container-width-md);
     }
-    section{
+
+    section {
         margin-top: 6rem;
     }
 }
+
 @media screen and (max-width:600px) {
-    .container{
+    .container {
         width: var(--container-width-sm);
     }
-    section >h2{
+
+    section>h2 {
         margin-bottom: 2rem;
     }
 }
