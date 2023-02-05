@@ -24,6 +24,7 @@ header{
 }
 
 .header__socials{
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,11 +43,13 @@ header{
 }
 
 .header__socials::after{
-    content: "";
-    width: 1px;
-    height: 3rem;
-    /* background: var(--color-primary); */
-    background: #00CF5D;
+    content: "Follow";
+    color: #00CF5D;
+    position: absolute;
+    bottom: 12.5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
 }
 
 
