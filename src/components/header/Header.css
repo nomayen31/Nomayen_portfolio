@@ -36,25 +36,23 @@ header{
 
 .header__socials::before{
     content: "";
-    width: 1px;
+    width: 2px;
     height: 3rem;
-    /* background: var(--color-primary); */
     background: #00CF5D;
 }
 
 .header__socials::after{
-    content: "Follow";
-    color: #00CF5D;
-    position: absolute;
-    bottom: 12.5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+    content: "";
+    width: 2px;
+    height: 3rem;
+    background: #00CF5D;
+    
+    
 }
 
 
 .me{
-    /* background: var(--color-primary); */
+  
     width: 22rem;
     height: 30rem;
     left: calc(50% - 11rem);
