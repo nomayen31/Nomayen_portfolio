@@ -5,28 +5,20 @@
 }
 
 .about__me{
+    border: 5px solid #2C2C6C;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent    
-        );
+    background:#2C2C6C;
         display: grid;
         place-items:center;
 }
 
 .about__me-image{
-    
+    height: 550px;
     border-radius: 2rem;
     overflow: hidden;
     /* transform:rotate(10deg); */
-}
-.about__me-image:hover{
-    transform: scale(1.1);
-    border: 1px solid #ffffff;
 }
 
 .about__cards{

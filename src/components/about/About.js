@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import ME from '../../assets/about1.png'
+import ME from '../../assets/img/11.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { BiLibrary } from 'react-icons/bi'
