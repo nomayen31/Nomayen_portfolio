@@ -16,7 +16,7 @@ const About = () => {
                         <img src={ME} alt='About Image'></img>
                     </div>
                 </div>
-                <div className='about__container'>
+                <div className='about__content'>
                     <div className='about__cards'>
                         <article className='about__card'>
                             <FaAward className='about__icon' />
@@ -33,10 +33,10 @@ const About = () => {
                             <h5>Projects</h5>
                             <small>40+ Completed</small>
                         </article>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    </div>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
 
                         <a href='#contact' className='btn btn-primary'>Let's talk</a>
-                    </div>
                 </div>
             </div>
         </section>
