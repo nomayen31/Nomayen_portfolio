@@ -24,17 +24,27 @@ header{
 }
 
 .header__socials{
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 0;
+    margin-top: 2.5rem;
     bottom: 3rem;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* position: absolute; */
+    /* left: 0; */
+}
+.header__socials a{
+    color: white;
+}
+.header__socials a:hover{
+    color:  #00CF5D;
+  
 }
 
-.header__socials::before{
+
+/* .header__socials::before{
     content: "";
     width: 2px;
     height: 3rem;
@@ -45,10 +55,8 @@ header{
     content: "";
     width: 2px;
     height: 3rem;
-    background: #00CF5D;
-    
-    
-}
+    background: #00CF5D; 
+} */
 
 
 .me{
@@ -57,7 +65,7 @@ header{
     height: 30rem;
     left: calc(50% - 11rem);
     position: absolute;
-    margin-top: 4rem;
+    margin-top: 2rem;
     /* border-radius: 12rem  12rem 0 0; */
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem ;

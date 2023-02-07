@@ -20,11 +20,39 @@
 
 .about__me-image{
     
-    /* border-radius: 2rem;
-    overflow: hidden; */
+    border-radius: 2rem;
+    overflow: hidden;
     /* transform:rotate(10deg); */
 }
 .about__me-image:hover{
     transform: scale(1.1);
-    border: 1px solid #00CF5D;
+    border: 1px solid #ffffff;
 }
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__icon{
+ color: var(--color-primary);
+ font-size: 1.4rem;
+ margin-bottom: 1rem;
+}
+
