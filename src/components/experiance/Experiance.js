@@ -2,6 +2,10 @@ import React from 'react';
 import './Experiance.css'
 import {AiFillHtml5} from 'react-icons/ai'
 import HTML from '../../assets/icon/html.svg'
+import CSS from '../../assets/icon/css.svg'
+// import HTML from '../../assets/icon/html.svg'
+// import HTML from '../../assets/icon/html.svg'
+// import HTML from '../../assets/icon/html.svg'
 
 const Experiance = () => {
     return (
@@ -19,7 +23,7 @@ const Experiance = () => {
                             <small className='text-light'>Experienced</small>
                             </article>
                             <article className='experiance__details'>
-                            <img src={HTML} alt='nomayen hossain ohin' />
+                            <img src={CSS} alt='nomayen hossain ohin' />
                             <h4>CSS</h4>
                             <small className='text-light'>Experienced</small>
                             </article>
