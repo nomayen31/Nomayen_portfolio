@@ -2,3 +2,38 @@
     width: 40px;
     height: 40px;
 }
+
+.experience__container{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 2rem;
+}
+.experience__container > div h3{
+ text-align: center;
+ margin-bottom: 2rem;
+ color: var(--color-primary);
+}
+
+.experience__frontend > div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.experience__frontend > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experiance__details{
+    display: flex;
+    gap: 1rem;
+}

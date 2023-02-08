@@ -26,33 +26,45 @@ const Experiance = () => {
                     <div className='experience__content'>
                         <article className='experiance__details'>
                             <img src={HTML} alt='nomayen hossain ohin' />
-                            <h4>HTML</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>HTML</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experiance__details'>
                             <img src={CSS} alt='nomayen hossain ohin' />
-                            <h4>CSS</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>CSS</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experiance__details'>
                             <img src={Bootstrap} alt='nomayen hossain ohin' />
-                            <h4>JavaScript</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>JavaScript</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experiance__details'>
                             <img src={Tailwind} alt='nomayen hossain ohin' />
-                            <h4>Bootstrap</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>Bootstrap</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experiance__details'>
                             <img src={javascript} alt='nomayen hossain ohin' />
-                            <h4>Tailwind</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>Tailwind</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experiance__details'>
                             <img src={react} alt='nomayen hossain ohin' />
-                            <h4>React</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>React</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                     </div>
                 </div>
@@ -62,30 +74,40 @@ const Experiance = () => {
                         <div className='experience__content'>
                             <article className='experiance__details'>
                                 <img src={Node} alt='nomayen hossain ohin' />
-                                <h4>Node JS</h4>
-                                <small className='text-light'>Experienced</small>
+                                <div>
+                                    <h4>Node JS</h4>
+                                    <small className='text-light'>Experienced</small>
+                                </div>
                             </article>
                             <article className='experiance__details'>
                                 <img src={mongo} alt='nomayen hossain ohin' />
-                                <h4>MongoDB</h4>
-                                <small className='text-light'>Experienced</small>
+                                <div>
+                                    <h4>MongoDB</h4>
+                                    <small className='text-light'>Experienced</small>
+                                </div>
                             </article>
                             <article className='experiance__details'>
                                 <img src={express} alt='nomayen hossain ohin' />
-                                <h4>Express Js</h4>
-                                <small className='text-light'>Experienced</small>
+                                <div>
+                                    <h4>Express Js</h4>
+                                    <small className='text-light'>Experienced</small>
+                                </div>
                             </article>
                             <article className='experiance__details'>
                                 <img src={sql} alt='nomayen hossain ohin' />
-                                <h4>Mysql</h4>
-                                <small className='text-light'>Experienced</small>
+                                <div>
+                                    <h4>MySql</h4>
+                                    <small className='text-light'>Experienced</small>
+                                </div>
                             </article>
                             <article className='experiance__details'>
                                 <img src={Php} alt='nomayen hossain ohin' />
-                                <h4>PHP</h4>
-                                <small className='text-light'>intermediate</small>
+                                <div>
+                                    <h4>PHP</h4>
+                                    <small className='text-light'>intermediate</small>
+                                </div>
                             </article>
-                           
+
                         </div>
                     </div>
                 </div>
