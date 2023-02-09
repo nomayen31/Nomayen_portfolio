@@ -19,8 +19,60 @@ const Portfolio = () => {
                         <img src={IMG1} alt="porject"></img>
                     </div>
                         <h3>This is a portfolio item title</h3>
+                        <div className='portfolio__item-cta'>
                         <a href='http://github.com' className='btn'>Github</a>
                         <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={IMG1} alt="porject"></img>
+                    </div>
+                        <h3>This is a portfolio item title</h3>
+                        <div className='portfolio__item-cta'>
+                        <a href='http://github.com' className='btn'>Github</a>
+                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={IMG1} alt="porject"></img>
+                    </div>
+                        <h3>This is a portfolio item title</h3>
+                        <div className='portfolio__item-cta'>
+                        <a href='http://github.com' className='btn'>Github</a>
+                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={IMG1} alt="porject"></img>
+                    </div>
+                        <h3>This is a portfolio item title</h3>
+                        <div className='portfolio__item-cta'>
+                        <a href='http://github.com' className='btn'>Github</a>
+                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={IMG1} alt="porject"></img>
+                    </div>
+                        <h3>This is a portfolio item title</h3>
+                        <div className='portfolio__item-cta'>
+                        <a href='http://github.com' className='btn'>Github</a>
+                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={IMG1} alt="porject"></img>
+                    </div>
+                        <h3>This is a portfolio item title</h3>
+                        <div className='portfolio__item-cta'>
+                        <a href='http://github.com' className='btn'>Github</a>
+                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        </div>
                 </article>
             </div>
         </section>
