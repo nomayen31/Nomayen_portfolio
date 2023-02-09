@@ -57,8 +57,8 @@ const data =[
     github:'https://github.com/nomayen31/donate-today-bangladesh',
     demo:'https://today-assignment-6.netlify.app',
     
-    },
-    ];
+    }
+    ]
 
 const Portfolio = () => {
     return (
@@ -69,16 +69,18 @@ const Portfolio = () => {
             <div className='container portfolio__container'>
                {
                 data.map(({id, image, title, github, demo})=>{
-                    <article key={id} className='portfolio__item'>
+                    return(
+                        <article key={id} className='portfolio__item'>
                     <div className='portfolio__item-image'>
                         <img src={image} alt={title}></img>
                     </div>
                         <h3>{title}</h3>
                         <div className='portfolio__item-cta'>
-                        <a href={github} className='btn'>Github</a>
+                        <a href={github} className='btn' target="_blank">Github</a>
                         <a href={demo}className='btn btn-primary' target='_blank'>Live Demo</a>
                         </div>
                 </article>
+                    )
                 })
                }
             </div>
