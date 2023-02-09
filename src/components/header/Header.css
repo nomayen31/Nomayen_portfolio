@@ -44,8 +44,8 @@ header{
 }
 
 .me{
-/*   
-    width: 22rem;
+  
+    /* width: 22rem;
     height: 30rem; */
     height: 300px;
     width: 300px;
@@ -82,6 +82,7 @@ header{
 @media screen and (max-width:600px) {
         header{
             height: 100vh;
+
         }
         .header__socials, .scroll__down{
                 display: none;

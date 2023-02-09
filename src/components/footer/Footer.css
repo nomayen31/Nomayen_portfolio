@@ -1,0 +1,13 @@
+.footer__section{
+    height: 40px;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.name{
+    text-align: center;
+   
+}

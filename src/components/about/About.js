@@ -34,7 +34,7 @@ const About = () => {
                             <small>40+ Completed</small>
                         </article>
                     </div>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        <p>Hello! I'm Nomayen Hossain, a passionate MERN stack Developer. I develop web applications, mobile applications, and desktop applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I study in Computer Engineering from Feni Computer Institute at Feni, Bangladeshin . I am available for any kind of job opportunity that suits my interests.</p>
 
                         <a href='#contact' className='btn btn-primary'>Let's talk</a>
                 </div>
