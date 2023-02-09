@@ -1,11 +1,64 @@
 import React from 'react';
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG8 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/port/port1.jpg'
+import IMG2 from '../../assets/port/port2.jpg'
+import IMG3 from '../../assets/port/port3.jpg'
+import IMG4 from '../../assets/port/port4.jpg'
+import IMG5 from '../../assets/port/port5.jpg'
+import IMG6 from '../../assets/port/port6.jpg'
+
+
+const data =[
+
+    {
+    id:1,
+    image:IMG1,
+    title:'Global and technology News',
+    github:'https://github.com/nomayen31/donate-today-bangladesh',
+    demo:'https://today-assignment-6.netlify.app',
+    
+    },
+    {
+    id:2,
+    image:IMG2,
+    title:'hello bangladesh',
+    github:'https://github.com/nomayen31/donate-today-bangladesh',
+    demo:'https://today-assignment-6.netlify.app',
+    
+    },
+    {
+    id:3,
+    image:IMG3,
+    title:'hello bangladesh',
+    github:'https://github.com/nomayen31/donate-today-bangladesh',
+    demo:'https://today-assignment-6.netlify.app',
+    
+    },
+    {
+    id:4,
+    image:IMG4,
+    title:'hello bangladesh',
+    github:'https://github.com/nomayen31/donate-today-bangladesh',
+    demo:'https://today-assignment-6.netlify.app',
+    
+    },
+    {
+    id:5,
+    image:IMG5,
+    title:'hello bangladesh',
+    github:'https://github.com/nomayen31/donate-today-bangladesh',
+    demo:'https://today-assignment-6.netlify.app',
+    
+    },
+    {
+    id:6,
+    image:IMG6,
+    title:'hello bangladesh',
+    github:'https://github.com/nomayen31/donate-today-bangladesh',
+    demo:'https://today-assignment-6.netlify.app',
+    
+    },
+    ];
 
 const Portfolio = () => {
     return (
@@ -14,66 +67,20 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className='container portfolio__container'>
-                <article className='portfolio__item'>
+               {
+                data.map(({id, image, title, github, demo})=>{
+                    <article key={id} className='portfolio__item'>
                     <div className='portfolio__item-image'>
-                        <img src={IMG1} alt="porject"></img>
+                        <img src={image} alt={title}></img>
                     </div>
-                        <h3>This is a portfolio item title</h3>
+                        <h3>{title}</h3>
                         <div className='portfolio__item-cta'>
-                        <a href='http://github.com' className='btn'>Github</a>
-                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href={github} className='btn'>Github</a>
+                        <a href={demo}className='btn btn-primary' target='_blank'>Live Demo</a>
                         </div>
                 </article>
-                <article className='portfolio__item'>
-                    <div className='portfolio__item-image'>
-                        <img src={IMG1} alt="porject"></img>
-                    </div>
-                        <h3>This is a portfolio item title</h3>
-                        <div className='portfolio__item-cta'>
-                        <a href='http://github.com' className='btn'>Github</a>
-                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </div>
-                </article>
-                <article className='portfolio__item'>
-                    <div className='portfolio__item-image'>
-                        <img src={IMG1} alt="porject"></img>
-                    </div>
-                        <h3>This is a portfolio item title</h3>
-                        <div className='portfolio__item-cta'>
-                        <a href='http://github.com' className='btn'>Github</a>
-                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </div>
-                </article>
-                <article className='portfolio__item'>
-                    <div className='portfolio__item-image'>
-                        <img src={IMG1} alt="porject"></img>
-                    </div>
-                        <h3>This is a portfolio item title</h3>
-                        <div className='portfolio__item-cta'>
-                        <a href='http://github.com' className='btn'>Github</a>
-                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </div>
-                </article>
-                <article className='portfolio__item'>
-                    <div className='portfolio__item-image'>
-                        <img src={IMG1} alt="porject"></img>
-                    </div>
-                        <h3>This is a portfolio item title</h3>
-                        <div className='portfolio__item-cta'>
-                        <a href='http://github.com' className='btn'>Github</a>
-                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </div>
-                </article>
-                <article className='portfolio__item'>
-                    <div className='portfolio__item-image'>
-                        <img src={IMG1} alt="porject"></img>
-                    </div>
-                        <h3>This is a portfolio item title</h3>
-                        <div className='portfolio__item-cta'>
-                        <a href='http://github.com' className='btn'>Github</a>
-                        <a href='http://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </div>
-                </article>
+                })
+               }
             </div>
         </section>
     );
