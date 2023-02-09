@@ -73,7 +73,7 @@ const Experiance = () => {
                         <h3>Frontend Development</h3>
                         <div className='experience__content'>
                             <article className='experiance__details'>
-                                <img src={Node} alt='nomayen hossain ohin' />
+                                <img src={Node} alt='nomayen hossain ohin'  className='experiance__details-icon'/>
                                 <div>
                                     <h4>Node JS</h4>
                                     <small className='text-light'>Experienced</small>
